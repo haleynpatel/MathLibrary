@@ -12,4 +12,6 @@ public:
     static int vectorDotProduct(const std::vector<int>& a, const std::vector<int>& b);
     static double vectorMagnitude(const std::vector<int>& a);
 
+    static void printVector(const std::vector<int>& vec);
+
 };
