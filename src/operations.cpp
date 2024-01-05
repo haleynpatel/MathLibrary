@@ -1,4 +1,4 @@
-#include "operations.h"
+#include "arithmetic_operations.h"
 #include <iostream>
 
 int MathOperations::add(int a, int b) {
