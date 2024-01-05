@@ -1,7 +1,6 @@
 #include <iostream>
 #include "arithmetic_operations.h"
 
-
 int main() {
     int result_add = MathOperations::add(3, 4);
     int result_subtract = MathOperations::subtract(1, 5);
