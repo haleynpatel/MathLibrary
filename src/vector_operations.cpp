@@ -1,9 +1,28 @@
 #include "vector_operations.h"
 
+// used the C++ vector data structure for the dynamic allocation of memory and ease of using convenient methods such as push_back
+
+
 std::vector<int> VectorOperations::vectorAddition(const std::vector<int>& a, const std::vector<int>& b) {
     std::vector<int> result;
     for (int i = 0; i < a.size(); i++) {
         result.push_back(a[i] + b[i]);
+    }
+    return result;
+}
+
+std::vector<int> VectorOperations::vectorSubtratction(const std::vector<int& a, const std::vector<int>& b) {
+    std::vector<int> result;
+    for (int i = 0; i < a.size(); i++) {
+        result.push_back(a[i] - b[i]);
+    }
+    return result;
+}
+
+std::vector<int> VectorOperations::vectorMultiply(const std::vector<int>& a, int scalar) {
+    std::vector<int> result;
+    for (int i = 0; i < a.size(); i++) {
+        result.push_back(a[i] * scalar);
     }
     return result;
 }
