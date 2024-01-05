@@ -3,7 +3,7 @@
 #include "vector_operations.h"
 
 int main() {
-    // Example of using vector operations
+    // Vectors
     std::vector<int> vector_a = {1, 2, 3};
     std::vector<int> vector_b = {4, 5, 6};
 
@@ -15,4 +15,13 @@ int main() {
     }
     std::cout << std::endl;
     return 0;
+
+    // Vector Subtraction
+    std::vector<int> result_vector_subtract = VectorOperations::vectorSubtract(vector_a, vector_b);
+    std::cout << "Vector Subtraction Result: ";
+    for int (value : result_vector_subtract) {
+        std::cout << value << " ";
+    }
+    std::cout << std::endl;
+    return 0; 
 }
