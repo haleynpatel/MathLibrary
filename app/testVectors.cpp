@@ -11,19 +11,12 @@ int main() {
     // Vector Addition
     std::vector<int> result_vector_add = VectorOperations::vectorAddition(vector_a, vector_b);
     std::cout << "Vector Addition Result: ";
-    for (int value : result_vector_add) {
-        std::cout << value << " ";
-    };
-    std::cout << std::endl;
+    VectorOperations::printVector(result_vector_add);
 
     // Vector Subtraction
     std::vector<int> result_vector_subtract = VectorOperations::vectorSubtract(vector_a, vector_b);
     std::cout << "Vector Subtraction Result: ";
-    for (int value : result_vector_subtract) {
-        std::cout << value << " ";
-    };
-    std::cout << std::endl;
-
     VectorOperations::printVector(result_vector_subtract);
+
     return 0;
 }
