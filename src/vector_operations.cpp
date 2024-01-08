@@ -29,8 +29,11 @@ std::vector<int> VectorOperations::vectorMultiply(const std::vector<int>& a, int
 
 void VectorOperations::printVector(const std::vector<int>& vec) {
     std::cout << "Vector: [";
-    for (int value : vec) {
-        std::cout << value << " ";
+    for (size_t i = 0; i < vec.size(); ++i) {
+        std::cout << vec[i];
+        if (i < vec.size() - 1) {
+            std::cout << ", ";
+        }
     }
     std::cout << "]" << std::endl;
 }
