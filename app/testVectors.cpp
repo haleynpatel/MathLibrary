@@ -1,6 +1,7 @@
 
 #include <iostream>
-#include "vector_operations.h"
+#include "../include/vector_operations.h"
+#include "C:/Users/Haley/Documents/MathLibrary/src/vector_operations.cpp"
 
 int main() {
     // Vectors
@@ -12,16 +13,17 @@ int main() {
     std::cout << "Vector Addition Result: ";
     for (int value : result_vector_add) {
         std::cout << value << " ";
-    }
+    };
     std::cout << std::endl;
-    return 0;
 
     // Vector Subtraction
     std::vector<int> result_vector_subtract = VectorOperations::vectorSubtract(vector_a, vector_b);
     std::cout << "Vector Subtraction Result: ";
-    for int (value : result_vector_subtract) {
+    for (int value : result_vector_subtract) {
         std::cout << value << " ";
-    }
+    };
     std::cout << std::endl;
-    return 0; 
+
+    VectorOperations::printVector(result_vector_subtract);
+    return 0;
 }
