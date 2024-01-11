@@ -1,7 +1,6 @@
 
 #include <iostream>
-#include "../include/vector_operations.h"
-#include "C:/Users/Haley/Documents/MathLibrary/src/vector_operations.cpp"
+#include "vector_operations.h"
 
 int main() {
     // Vectors
