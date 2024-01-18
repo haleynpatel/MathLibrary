@@ -2,6 +2,7 @@
 #include <iostream>
 #include "vector_operations.h"
 
+
 int main() {
     // Vectors
     std::vector<int> vector_a = {1, 2, 3};
