@@ -10,6 +10,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_library(mathlibrary STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/operations.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/vector_operations.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/financial_operations.cpp
 )
 
 # executable
